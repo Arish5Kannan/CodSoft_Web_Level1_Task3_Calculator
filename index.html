@@ -9,7 +9,7 @@
 <body>
     <div id = "calculator">
         <h1>Calculator</h1>
-        <input type="text" class="textbox" id="text-box" placeholder="0"><br>
+        <input type="text" class="textbox" id="text-box" placeholder="0" readonly><br>
 <div class="container">
     <button onclick="display('1')">1</button>
     <button onclick="display('2')">2</button>
@@ -46,16 +46,14 @@
         try{
             if(output.value === "")
             {
-                alert('Syntax Error');
+                output.value = "Syntax Error";
             }
             else{
             output.value = eval(output.value);
             }
         }
         catch(err){
-            alert('Invalid innput');
-            let c = document.getElementById("text-box");
-            c.value= 0;
+            output.value="Invalid input";
         }
 
     }
