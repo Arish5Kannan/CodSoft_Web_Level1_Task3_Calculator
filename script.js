@@ -21,7 +21,7 @@ var output = document.getElementById("text-box");
         catch(err){
             output.value="Invalid input";
         }
-
+                     
     }
     function Delete()
     {
