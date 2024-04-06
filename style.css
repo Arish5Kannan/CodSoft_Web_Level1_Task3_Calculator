@@ -5,7 +5,7 @@ body{
     text-align: center;
     position: absolute;
     transform:translate(-50%,-50%);
-    top:50%;
+    top:30%;
     left:50%;
     background:linear-gradient(to right,rgb(4, 28, 43),rgb(31, 128, 184),rgb(14, 88, 199),rgb(2, 22, 53));
     background-size: cover;
