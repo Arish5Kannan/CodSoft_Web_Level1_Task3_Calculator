@@ -10,23 +10,24 @@
     <div id = "calculator">
         <input type="text" class="textbox" id="text-box" placeholder="0" readonly><br>
 <div class="container">
-    <button onclick="display('1')">1</button>
-    <button onclick="display('2')">2</button>
-    <button onclick="display('3')">3</button>
-    <button onclick="display('+')">+</button><br>
-    <button onclick="display('4')">4</button>
-    <button onclick="display('5')">5</button>
-    <button onclick="display('6')">6</button>
-    <button onclick="display('-')">-</button><br>
-    <button onclick="display('7')">7</button>
-    <button onclick="display('8')">8</button>
-    <button onclick="display('9')">9</button>
-    <button onclick="display('*')">x</button><br>
-    <button onclick="display('0')">0</button>
-    <button onclick="Clear()">Clr</button>
-    <button onclick="Delete()">Del</button>
-    <button onclick="display('/')">/</button><br>
-    <main>
+    <div class ="con"><button onclick="display('1')">1</button></div>
+    <div class="con"><button onclick="display('2')">2</button></div>
+    <div class="con"><button onclick="display('3')">3</button></div>
+    <div class="con"><button onclick="display('+')">+</button></div>
+    <div class="con"><button onclick="display('4')">4</button></div>
+    <div class="con"><button onclick="display('5')">5</button></div>
+    <div class="con"><button onclick="display('6')">6</button></div>
+   <div class="con"> <button onclick="display('-')">-</button></div>
+   <div class="con"> <button onclick="display('7')">7</button></div>
+    <div class="con"><button onclick="display('8')">8</button></div>
+    <div class="con"><button onclick="display('9')">9</button></div>
+    <div class="con"><button onclick="display('*')">x</button></div>
+    <div class="con"><button onclick="display('0')">0</button></div>
+   <div class="con"> <button onclick="Clear()">Clr</button></div>
+    <div class="con"><button onclick="Delete()">Del</button></div>
+    <div class="con"><button onclick="display('/')">/</button></div>
+</div>
+    <main id="main">
         <button onclick="calculate()">=</button>
     </main>
 </div>

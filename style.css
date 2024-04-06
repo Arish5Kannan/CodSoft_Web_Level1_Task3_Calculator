@@ -25,9 +25,12 @@ body{
  
 }
 #calculator .container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
     margin:0px;
     padding: 0px;
     width:400px;
+    justify-content: center;
 }
 #calculator .container button{
     padding: auto;
@@ -64,7 +67,7 @@ body{
     margin-left: auto;
     color:rgb(207, 98, 9);
 }
-#calculator .container main button{
+#calculator #main button{
     width:70%;
     height:58px;
     border-radius:20px;
@@ -79,7 +82,7 @@ body{
     border:5px solid rgb(28, 150, 168);
     box-shadow: none;
 }
-#calculator .container main button:hover{
+#calculator  #main button:hover{
     background-color: rgba(10, 199, 228, 0.918);
     border:3px solid white;
     border:none;
